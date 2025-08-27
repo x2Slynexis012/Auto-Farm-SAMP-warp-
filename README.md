@@ -1,1 +1,7 @@
-# Auto-Farm-SAMP-warp-
+# My Awesome Project 🚀
+คำอธิบายสั้น ๆ ว่าโปรเจกต์นี้ทำอะไร
+
+## วิธีใช้งาน (Usage)
+หลังจากติดตั้งเสร็จแล้ว ให้รันคำสั่ง:
+```bash
+python main.py
