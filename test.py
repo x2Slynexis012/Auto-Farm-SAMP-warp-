@@ -1,0 +1,2 @@
+def Kuyrai():
+    print("Kuyraira")
