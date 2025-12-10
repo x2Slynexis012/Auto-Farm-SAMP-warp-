@@ -661,4 +661,4 @@ def Kuyrai():
     print("Kuyraira")
 
 
-
+app.mainloop()
