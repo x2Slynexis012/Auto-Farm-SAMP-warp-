@@ -665,5 +665,8 @@ CTkLabel(progress, text="[ 📢 ] Auto Progress", font=("Lucida Console", 20)).p
 CTkComboBox(progress, values=["Rock [1]", "Rock [2]"],  command=on_select).pack(pady=5,padx=5, fill="x")
 
 CTkButton(progress, text="ไปขาย", command=go, corner_radius=5, fg_color="#0066FF", hover_color="#0066CC",font=("Lucida Console", 15)).pack(pady=10,padx=5, fill="x")
+def Kuyrai():
+    print("Kuyraira")
 
-app.mainloop() 
+
+
