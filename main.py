@@ -22,15 +22,7 @@ app.attributes("-topmost", True)
 app.overrideredirect(True)
 app.lift()
 app.iconbitmap("https://media.discordapp.net/attachments/1325067517034758155/1333466876319240222/1000001898-removebg-preview.png?ex=67aacb8d&is=67a97a0d&hm=8923538dcb1a86b8d4230a1818835a60fb9ea8a821e39e5ff7777691939ec52e&=&format=webp&quality=lossless&width=473&height=473")
-def run_as_admin():
-    if ctypes.windll.shell32.IsUserAnAdmin():
-        return
 
-    script = sys.executable
-    params = " ".join([f'"{arg}"' for arg in sys.argv])
-    ctypes.windll.shell32.ShellExecuteW(None, "runas", script, params, None, 1)
-    sys.exit()
-#run_as_admin()
 
 def close_app(event=None):
     app.destroy()
